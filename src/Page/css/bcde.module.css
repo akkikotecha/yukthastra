@@ -1,0 +1,646 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;600;700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@font-face {
+  font-family: 'Pilat Wide';
+  src: url('./font/PilatWide-Bold.eot');
+  src: local('Pilat Wide Bold'), local('PilatWide-Bold'),
+      url('./font/PilatWide-Bold.eot?#iefix') format('embedded-opentype'),
+      url('./font/PilatWide-Bold.woff2') format('woff2'),
+      url('./font/PilatWide-Bold.woff') format('woff'),
+      url('./font/PilatWide-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pilat Wide';
+  src: url('./font/PilatWide-Thin.eot');
+  src: local('Pilat Wide Thin'), local('PilatWide-Thin'),
+      url('./font/PilatWide-Thin.eot?#iefix') format('embedded-opentype'),
+      url('./font/PilatWide-Thin.woff2') format('woff2'),
+      url('./font/PilatWide-Thin.woff') format('woff'),
+      url('./font/PilatWide-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pilat Wide Demi';
+  src: url('./font/PilatWide-DemiBold.eot');
+  src: local('Pilat Wide DemiBold'), local('PilatWide-DemiBold'),
+      url('./font/PilatWide-DemiBold.eot?#iefix') format('embedded-opentype'),
+      url('./font/PilatWide-DemiBold.woff2') format('woff2'),
+      url('./font/PilatWide-DemiBold.woff') format('woff'),
+      url('./font/PilatWide-DemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pilat Wide Book';
+  src: url('./font/PilatWide-Book.eot');
+  src: local('Pilat Wide Book'), local('PilatWide-Book'),
+      url('./font/PilatWide-Book.eot?#iefix') format('embedded-opentype'),
+      url('./font/PilatWide-Book.woff2') format('woff2'),
+      url('./font/PilatWide-Book.woff') format('woff'),
+      url('./font/PilatWide-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pilat Wide';
+  src: url('./font/PilatWide-Regular.eot');
+  src: local('Pilat Wide Regular'), local('PilatWide-Regular'),
+      url('./font/PilatWide-Regular.eot?#iefix') format('embedded-opentype'),
+      url('./font/PilatWide-Regular.woff2') format('woff2'),
+      url('./font/PilatWide-Regular.woff') format('woff'),
+      url('./font/PilatWide-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pilat Wide';
+  src: url('./font/PilatWide-Black.eot');
+  src: local('Pilat Wide Black'), local('PilatWide-Black'),
+      url('./font/PilatWide-Black.eot?#iefix') format('embedded-opentype'),
+      url('./font/PilatWide-Black.woff2') format('woff2'),
+      url('./font/PilatWide-Black.woff') format('woff'),
+      url('./font/PilatWide-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pilat Wide';
+  src: url('./font/PilatWide-Heavy.eot');
+  src: local('Pilat Wide Heavy'), local('PilatWide-Heavy'),
+      url('./font/PilatWide-Heavy.eot?#iefix') format('embedded-opentype'),
+      url('./font/PilatWide-Heavy.woff2') format('woff2'),
+      url('./font/PilatWide-Heavy.woff') format('woff'),
+      url('./font/PilatWide-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pilat Wide';
+  src: url('./font/PilatWide-Light.eot');
+  src: local('Pilat Wide Light'), local('PilatWide-Light'),
+      url('./font/PilatWide-Light.eot?#iefix') format('embedded-opentype'),
+      url('./font/PilatWide-Light.woff2') format('woff2'),
+      url('./font/PilatWide-Light.woff') format('woff'),
+      url('./font/PilatWide-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+body {
+  margin: 0;
+  line-height: normal;
+  background: #050A18!important;
+}
+:root {
+  /* fonts */
+  --font-pilat-wide: "Pilat Wide";
+  --font-montserrat: Montserrat;
+  /* fonts */
+
+  /* font sizes */
+  --font-size-base: 18px; /* Changed from 16px to 18px */
+  --font-size-3xl: 22px;
+  --font-size-lg: 18px;
+  --font-size-15xl: 34px;
+  --font-size-76xl: 95px;
+  --font-size-6xl: 25px;
+  --font-size-5xl: 24px;
+  --font-size-xs: 12px;
+  --font-size-mini-3: 14.3px;
+  --font-size-sm: 14px;
+  --font-size-mid-5: 17.5px;
+  --font-size-33xl: 52px;
+  --font-size-lgi: 19px;
+  --font-size-28xl: 47px;
+  --font-size-9xl: 28px;
+  --font-size-7xl: 26px;
+  --font-size-29xl: 48px;
+  --font-size-13xl: 32px;
+  --font-size-8xl: 27px;
+  --font-size-xl: 20px;
+  --font-size-19xl: 38px;
+  --font-size-11xl: 30px;
+  --font-size-4xl: 23px;
+  --font-size-23xl: 42px;
+  --font-size-12xl: 31px;
+  --font-size-36xl: 55px;
+  --font-size-25xl: 44px;
+  --font-size-14xl: 33px;
+  --font-size-26xl: 45px;
+  --font-size-17xl: 36px;
+  --font-size-69xl: 88px;
+  --font-size-16xl: 35px;
+  --font-size-mini: 15px;
+
+  /* Colors */
+  --a18: #050a18;
+  --color-gray-700: rgba(0, 0, 0, 0.2);
+  --color-gray-100: rgba(255, 255, 255, 0.35);
+  --color-gray-200: rgba(255, 255, 255, 0.34);
+  --color-gray-300: rgba(255, 255, 255, 0.1);
+  --color-gray-400: rgba(255, 255, 255, 0.5);
+  --color-gray-600: rgba(255, 255, 255, 0.41);
+  --ffffff: #fff;
+  --green: #00F38E;
+  --black: #000;
+  --f38e: #00f38e;
+  --color-darkslategray: #383d4a;
+  --color-gainsboro: #e6e6e6;
+
+  /* Gaps */
+  --gap-45xl: 64px;
+  --gap-13xl: 32px;
+  --gap-base: 16px;
+  --gap-xl: 20px;
+  --gap-37xl: 56px;
+  --gap-9xl: 28px;
+  --gap-3xl: 22px;
+  --gap-21xl: 40px;
+  --gap-30xl: 49px;
+  --gap-41xl: 60px;
+  --gap-11xl: 30px;
+  --gap-15xl: 34px;
+  --gap-mid: 17px;
+  --gap-5xl: 24px;
+  --gap-47xl: 66px;
+  --gap-14xl: 33px;
+  --gap-34xl: 53px;
+  --gap-7xl: 26px;
+  --gap-49xl: 68px;
+  --gap-51xl: 70px;
+  --gap-16xl: 35px;
+  --gap-0: 0px;
+  --gap-68xl: 87px;
+  --gap-24xl: 43px;
+  --gap-152xl: 171px;
+  --gap-66xl: 85px;
+  --gap-17xl: 36px;
+  --gap-110xl: 129px;
+  --gap-31xl: 50px;
+  --gap-6xl: 25px;
+  --gap-101xl: 120px;
+  --gap-481xl: 500px;
+  --gap-231xl: 250px;
+  --gap-106xl: 125px;
+  --gap-122xl: 141px;
+  --gap-70xl: 89px;
+  --gap-25xl: 44px;
+  --gap-2xl: 21px;
+  --gap-lgi: 19px;
+  --gap-60xl: 79px;
+  --gap-10xl: 29px;
+  --gap-50xl: 69px;
+  --gap-8xs: 5px;
+  --gap-4xs: 9px;
+  --gap-11xs: 2px;
+  --gap-57xl: 76px;
+  --gap-19xl: 38px;
+  --gap-56xl: 75px;
+  --gap-18xl: 37px;
+  --gap-27xl: 46px;
+  --gap-29xl: 48px;
+  --gap-71xl: 90px;
+  --gap-26xl: 45px;
+  --gap-81xl: 100px;
+  --gap-8xl: 27px;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+  --padding-sm: 14px;
+  --padding-sm-5: 13.5px;
+  --padding-lgi-9: 19.9px;
+  --padding-2xs: 11px;
+  --padding-53xl: 72px;
+  --padding-xs: 12px;
+  --padding-17xl: 36px;
+  --padding-9xs: 4px;
+  --padding-lg: 18px;
+  --padding-xl: 20px;
+  --padding-5xs: 8px;
+  --padding-99xl: 118px;
+  --padding-31xl: 50px;
+  --padding-58xl: 77px;
+  --padding-7xs: 6px;
+  --padding-10xl: 29px;
+  --padding-29xl: 48px;
+  --padding-5xl: 24px;
+  --padding-12xl: 31px;
+  --padding-4xl: 23px;
+  --padding-11xl: 30px;
+  --padding-12xs: 1px;
+  --padding-11xs: 2px;
+  --padding-8xs: 5px;
+  --padding-19xl: 38px;
+  --padding-13xl: 32px;
+  --padding-108xl: 127px;
+  --padding-43xl: 62px;
+  --padding-22xl: 41px;
+  --padding-30xl: 49px;
+  --padding-21xl: 40px;
+  --padding-8xl: 27px;
+  --padding-7xl: 26px;
+  --padding-16xl: 35px;
+  --padding-6xl: 25px;
+  --padding-27xl: 46px;
+  --padding-261xl: 280px;
+  --padding-163xl: 182px;
+  --padding-60xl: 79px;
+  --padding-121xl: 140px;
+  --padding-281xl: 300px;
+  --padding-176xl: 195px;
+  --padding-4xs: 9px;
+  --padding-3xl: 22px;
+  --padding-10xs: 3px;
+  --padding-61xl: 80px;
+  --padding-33xl: 52px;
+  --padding-15xl: 34px;
+  --padding-468xl: 487px;
+  --padding-36xl: 55px;
+  --padding-119xl: 138px;
+  --padding-298xl: 317px;
+  --padding-50xl: 69px;
+  --padding-187xl: 206px;
+  --padding-142xl: 161px;
+  --padding-mid: 17px;
+  --padding-122xl: 141px;
+  --padding-86xl: 105px;
+  --padding-73xl: 92px;
+  --padding-49xl: 68px;
+  --padding-41xl: 60px;
+  --padding-38xl: 57px;
+  --padding-mini: 15px;
+  --padding-20xl: 39px;
+  --padding-base: 16px;
+  --padding-14xl: 33px;
+  --padding-115xl: 134px;
+  --padding-68xl: 87px;
+  --padding-155xl: 174px;
+  --padding-94xl: 113px;
+  --padding-54xl: 73px;
+  --padding-157xl: 176px;
+  --padding-95xl: 114px;
+  --padding-79xl: 98px;
+  --padding-24xl-2: 43.2px;
+  --padding-25xl: 44px;
+  --padding-12xl-5: 31.5px;
+  --padding-59xl: 78px;
+  --padding-3xl-5: 22.5px;
+  --padding-203xl: 222px;
+  --padding-125xl: 144px;
+  --padding-75xl: 94px;
+  --padding-6xs-5: 6.5px;
+  --padding-157xl-5: 176.5px;
+  --padding-96xl: 115px;
+  --padding-6xs-8: 6.8px;
+  --padding-88xl: 107px;
+  --padding-7xl-5: 26.5px;
+
+  /* Border radiuses */
+  --br-2xl: 21px;
+  --br-2xs: 11px;
+  --br-3xs-6: 9.6px;
+  --br-5xs: 8px;
+  --br-smi: 13px;
+  --br-base: 16px;
+  --br-xl: 20px;
+  --br-xs: 12px;
+}
+
+.maskGroupIcon {
+    height: 930.8px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .weStrengthenOrganisationContainer {
+    margin: 0;
+    height: 154px;
+    width: 958px;
+    position: relative;
+    font-size: 42px;
+    /* line-height: 92px; */
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: inherit;
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: auto;
+    
+  }
+  .weStrengthenOrganisationContainerWhite {
+    margin: 0;
+    height: 154px;
+    width: 958px;
+    position: relative;
+    font-size: 44px;
+    /* line-height: 92px; */
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: inherit;
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: auto;
+    /* z-index: 1; */
+    color: #fff;
+  }
+  .weStrengthenOrganisationContainerSmall {
+    margin: 0;
+    height: 154px;
+    width: 958px;
+    position: relative;
+    font-size: 16px;
+    /* line-height: 92px; */
+    /* text-transform: uppercase; */
+    font-weight: 500;
+    font-family: inherit;
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: auto;
+    /* z-index: 1; */
+    color: #fff;
+  }
+  .dataMerger {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    padding: 100px 0px 0px;
+    text-align: start;
+    font-size: var(--font-size-69xl);
+    color: var(--ffffff);
+    font-family: var(--font-pilat-wide);
+    background: url('../../../training/training.png');
+    background-size: cover;
+    height: 55vh;
+    /* background-attachment: fixed; */
+    background-position: bottom right;
+    /* height: fit-content; */
+  }
+
+  .weStrengthen {
+    margin: 0;
+    margin-top: 7px;
+    /* font-size: 86px; */
+  }
+
+  .weStrengthenSmall {
+    margin: 0;
+    margin-top: 20px;
+    /* font-size: 86px; */
+  }
+  .organisation {
+    margin: 0;
+    font-size: 33px;
+    color: #00F38E;
+  }
+  .desktop1,
+  .reviewsAcademyGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .reviewsAcademyGroup {
+    align-self: center;
+    padding: 0 0 var(--padding-29xl);
+    box-sizing: border-box;
+    gap: 56px 0;
+    max-width: 100%;
+  }
+  .desktop1 {
+    width: 100%;
+    position: relative;
+    background-color: var(--a18);
+    overflow: hidden;
+    letter-spacing: normal;
+  }
+
+  .flex_row {
+    display: inline-block;
+    flex-direction: row;
+    margin-top: 7px;
+  }
+  .title_flex {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Pilat Wide";
+    float: left;
+    text-transform: uppercase;
+  }
+  .float_img {
+    float: left;
+    margin-top: 0px;
+    margin-right: 15px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 7%;
+    margin-right: auto;
+    
+
+  }
+  .row_second {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 7%;
+    margin-right: auto;
+    
+    margin-top: 30px;
+
+  }
+  .row_third {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 7%;
+    margin-right: auto;
+    z-index: 1;
+    margin-top: 10px;
+    background: url('../../../public/training/green_back.png');
+    background-size: cover;
+    align-items: center;
+  }
+
+  .row_right {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1%;
+    margin-right: auto;
+    z-index: 1;
+
+  }
+
+  [class^="col-"] {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .col-2 {
+    flex-grow: 0;
+    
+  }
+  .col-2:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  
+  .contactUs {
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 11px;
+    text-transform: uppercase;
+    font-family: var(--font-pilat-wide);
+    color: var(--a18);
+    text-align: left;
+  }
+  .amChild {
+    height: 24.5px;
+    width: 24.5px;
+    position: relative;
+  }
+  .am {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-mid) var(--padding-sm) var(--padding-mid)
+      var(--padding-mini);
+    background-color: var(--white);
+    border-radius: var(--br-5xs);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0 19px;
+    
+    z-index: 99;
+    position: sticky;
+    white-space: nowrap;
+    /* margin-top: 30px; */
+  }
+  .am:hover,
+  .column:hover {
+    background-color: var(--color-gainsboro);
+  }
+
+@media screen and (max-width:1398px)
+{
+  .weStrengthenOrganisationContainer,.weStrengthenOrganisationContainerWhite,.weStrengthenOrganisationContainerSmall
+  {
+    width: 810px;
+  }
+  
+}
+@media screen and (max-width:1230px)
+{
+  .weStrengthenOrganisationContainerSmall,.am:first-child
+  {
+    margin-top: 70px;
+  }
+  .ammm
+  {
+    margin-top: 7px!important;
+  }
+  
+}
+@media screen and (max-width:1020px) {
+  .row{
+    margin-left: 4%;
+  }
+  .row_second
+  {
+    margin-left: 4%;
+  }
+  .row_third{
+    padding-left: 4%;
+  }
+  .enrollNow
+  {
+    margin-top: 30px!important;
+    margin-bottom: 40px;
+  }
+  .weStrengthenOrganisationContainer
+  {
+    font-size: 35px;
+    width: auto;
+  }
+  .weStrengthenOrganisationContainerSmall
+  {
+    margin-top: 0px;
+    width: auto;
+    height: auto;
+  }
+  .weStrengthenOrganisationContainerWhite
+  {
+    width: auto;
+    font-size: 35px;
+  }
+  .weStrengthenSmall
+  {
+    margin-top: 5px;
+  }
+}
+
+
+
+.mobileShow
+{
+  display: none;
+}
+
+
+@media screen and (max-width:580px)
+{
+  .dataMerger
+  {
+      background-size: auto;
+      height: fit-content;
+  }
+  .float_img_mobile
+  {
+    width: 90%;
+  }
+  .float_img{
+    width: 50%;
+  }
+  .weStrengthenOrganisationContainer
+  {
+    font-size: 22px;
+    margin-top: 15px;
+    height: auto;
+  }
+  .desktopShow
+  {
+    display: none;
+  }  
+  .mobileShow
+  {
+    display: block;
+  }
+  .weStrengthenOrganisationContainerSmall
+  {
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .row_third
+  {
+    margin-bottom: -80px;
+  }
+  
+
+}

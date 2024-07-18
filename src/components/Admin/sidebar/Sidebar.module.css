@@ -1,0 +1,40 @@
+.bgChange,.menuBgColor {
+    /* background: linear-gradient(195deg, #71b2b5, rgb(25 111 114)) !important; */
+    color:#000;
+    position: relative;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-color: #000;
+    -webkit-transition: width, left, right, 300ms;
+    transition: width, left, right, 300ms;
+    width: 275px!important;
+    min-width: 250px!important;
+    /* box-shadow: 7px 0 0 #196f72 !important; */
+    padding-left: 00px;
+
+}
+
+.bgChange
+{
+    margin-left: 18px;
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 94.8%;
+}
+.h1_data {
+     color: #165a72;
+     margin: 50px auto;
+     font-size: 40px;
+}
+.menu1 {
+     margin-bottom: 40px;
+     margin-top: 75px;
+     height: 10px;
+}
+.menu1:hover{
+    background-color: #99d1d3!important;
+    background: #99d1d3!important;
+}
+.h2_data {
+     color: #165a72;
+}

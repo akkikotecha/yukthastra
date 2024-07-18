@@ -1,0 +1,230 @@
+.nameFieldChild,
+.rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+}
+.rectangle {
+  top: 46px;
+  left: 16.8px;
+  border-radius: 50%;
+  background-color: var(--green);
+  width: 6.4px;
+  height: 6.4px;
+  opacity: 0;
+}
+.nameField {
+  width: 40px;
+  height: 52px;
+  position: relative;
+}
+.formFields {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+}
+.securityExperts,
+.worldClass {
+  margin: 0;
+}
+.bestReturnOn,
+.worldClassSecurityContainer {
+  letter-spacing: 0.01em;
+  /*/*line-height: 53px;*/
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  text-shadow: 0.7px 0 0#fff, 0 0.7px 0#fff, -0.7px 0 0#fff, 0-0.7px 0#fff;
+}
+.worldClassSecurityContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+}
+.bestReturnOn {
+  margin: 0 !important;
+  height: 36px;
+  width: 1002px;
+  position: absolute;
+  top: -32.2px;
+  right: -488px;
+  font-size: var(--font-size-33xl);
+  display: inline-block;
+  opacity: 0;
+  z-index: 1;
+}
+.callToAction,
+.reviewsAcademyTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.reviewsAcademyTitle {
+  height: 81px;
+  align-items: flex-start;
+  position: relative;
+}
+.callToAction {
+  align-items: center;
+  gap: 0 30px;
+}
+.frameChild,
+.itemcell {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+}
+.itemcell {
+  top: 17px;
+  left: 16.8px;
+  border-radius: 50%;
+  background-color: var(--green);
+  width: 6.4px;
+  height: 6.4px;
+  opacity: 0;
+  z-index: 1;
+}
+.frameParent {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+.footerFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+}
+.customSolution,
+.relationFirst {
+  margin: 0;
+}
+.relationFirstContainer {
+  margin: 0;
+  height: 81px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.01em;
+  /*/*line-height: 53px;*/
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  text-shadow: 0.7px 0 0#fff, 0 0.7px 0#fff, -0.7px 0 0#fff, 0-0.7px 0#fff;
+  max-width: 100%;
+}
+.contactUsFooter,
+.mainSection {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.contactUsFooter {
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 30px;
+}
+.mainSection {
+  width: 1282px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-23xl);
+  color: var(--white);
+  font-family: var(--font-pilat-wide);
+}
+
+@media screen and (max-width: 1250px) {
+  .mainSection {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .bestReturnOn,
+  .worldClassSecurityContainer {
+    font-size: var(--font-size-15xl);
+    /*/*line-height: 53px;*/
+  }
+  .bestReturnOn {
+    font-size: var(--font-size-23xl);
+  }
+  .callToAction {
+    flex-wrap: wrap;
+  }
+  .relationFirstContainer {
+    font-size: var(--font-size-15xl);
+    /*/*line-height: 53px;*/
+  }
+  .contactUsFooter {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bestReturnOn,
+  .worldClassSecurityContainer {
+    font-size: var(--font-size-6xl);
+    /*/*line-height: 53px;*/
+  }
+  .bestReturnOn {
+    font-size: var(--font-size-12xl);
+  }
+  .relationFirstContainer {
+    font-size: var(--font-size-6xl);
+    /*/*line-height: 53px;*/
+  }
+}
+
+
+
+@media screen and (max-width:1398px) {
+  
+  .worldClassSecurityContainer,.relationFirstContainer
+  {
+    font-size: 32px!important;
+  }
+  .mainSection
+  {
+    width: 1162px;
+  }
+  .frameContactInfo
+  {
+    gap: 126px 0px;
+  }
+}
+
+
+@media screen and (max-width:1230px) {
+  
+  .worldClassSecurityContainer,.relationFirstContainer
+  {
+    font-size: 32px!important;
+  }
+  .mainSection
+  {
+    width: 1035px;
+  }
+  .frameContactInfo
+  {
+    gap: 126px 0px;
+  }
+}
+
+@media screen and (max-width:1020px) {
+  .mainSection
+  {
+    display: none;
+  }
+}

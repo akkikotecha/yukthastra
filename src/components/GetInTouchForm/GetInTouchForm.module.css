@@ -1,0 +1,649 @@
+.phoneNumberInputChild {
+  object-fit: contain;
+}
+.phoneNumberInputChild,
+.phoneNumberInputItem {
+  height: 37px;
+  width: 37px;
+  position: relative;
+  min-height: 37px;
+}
+.group,
+.phoneNumberInput {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.phoneNumberInput {
+  display: flex;
+  flex: 1;
+  justify-content: end;
+  width: 190px;
+  gap: 10px 70px;
+  margin-bottom: 45px;
+  /* justify-content: space-between; */
+}
+.group {
+  justify-content: flex-start;
+  padding: 0 var(--padding-60xl);
+  box-sizing: border-box;
+}
+.btnViewMore
+{
+  background: #fff!important;
+  text-transform: uppercase;
+  font-weight: 700!important;
+  font-family: var(--font-pilat-wide)!important;
+  font-size: 14px!important;
+  padding: 10px!important;
+  border: none;
+}
+.titleprimaryleftIcon {
+  position: absolute;
+  
+  width: 90%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.maskGroupIcon {
+  position: absolute;
+  top: 110px;
+  left: 36px;
+  object-fit: cover;
+  z-index: 1;
+  width: 78%;
+}
+@media screen and (max-width: 1398px) {
+
+  .contactForm
+  {
+    min-width: 90%!important;
+    width: 97%!important;
+  }
+  
+  .maskGroupIcon {
+    position: absolute;
+    top: 102px;
+    left: 26px;
+    object-fit: cover;
+    z-index: 1;
+    width: 75%;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .maskGroupIcon {
+    position: absolute;
+    top: 102px;
+    left: 26px;
+    object-fit: cover;
+    z-index: 1;
+    width: 75%;
+  }
+
+}
+.submitBtn {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.nameInput {
+  height: 810px;
+  flex: 1;
+  position: relative;
+  min-width: 413px;
+  max-width: 100%;
+}
+.vectorIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.maskGroupIcon1 {
+  position: absolute;
+  top: 109px;
+    left: 34px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    z-index: 1;
+  
+}
+.vectorParent {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.nameInput1 {
+  height: 810px;
+  flex: 1;
+  position: relative;
+  min-width: 413px;
+  max-width: 100%;
+}
+.callToAction,
+.line {
+  /* display: flex; */
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.line {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0 72px;
+}
+.callToAction {
+  width: 1344px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 70px 0;
+}
+.callToActionWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 88px 25px;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-top: -15%;
+}
+.callToActionWrapperMargin
+{
+  margin-top: -15%;
+  position: relative;
+  z-index:9999;
+}
+.map_wdith
+{
+  width: 100%;
+  padding: 20px;
+}
+.title_text
+{
+  font-size: 42px;
+  font-weight: 600;
+  color:#fff;
+  text-transform: uppercase;
+  font-family: var(--font-pilat-wide);
+  /* margin-top: 30px; */
+  margin-bottom: 0px;
+
+}
+@media screen and (max-width: 1250px) {
+  .callToActionWrapper {
+    padding-bottom: var(--padding-163xl);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .enyerSecondNameWidth
+  {
+    width: 102%!important;
+    
+  }
+  .contactForm
+  {
+    padding-right: 12px;
+  }
+  .enyerSecondName
+  {
+    width: 100%!important;
+    margin-top: 50px;
+  }
+  .paddingSetLGRightSet{
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+  }
+  .title_text
+  {
+    margin-top: 0%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .nameInput,
+  .nameInput1 {
+    min-width: 100%;
+  }
+  .line {
+    gap: 0 36px;
+  }
+  .callToAction {
+    gap: 35px 0;
+  }
+  .callToActionWrapper {
+    padding-bottom: var(--padding-99xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 580px) {
+  .group {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .line {
+    gap: 0 18px;
+  }
+  .callToAction {
+    gap: 17px 0;
+  }
+  .enyerSecondName
+  {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1398px) {
+  .nameInput {
+    height: 700px!important;
+  }
+
+}
+
+
+@media screen and (max-width: 1250px) {
+  .nameInput {
+    height: 630px!important;
+  }
+
+}
+.ourLogoFrameChild {
+  width: 1440px;
+  height: 748px;
+  position: relative;
+  background-color: var(--black);
+  display: none;
+  max-width: 100%;
+}
+.enterName {
+ height: 76px;
+  width: 100%;
+  padding: 10px;
+  border: 0.5px solid #10ff7c52;
+  font-weight: 500;
+  font-family: var(--font-montserrat)!important;
+  font-size: var(--font-size-lg);
+  background-color: transparent;
+  border-radius: 10px!important;
+  color: var(--color-gray-400);
+  padding-left: 20px!important;
+
+}
+
+.nameInputField,
+.phoneNumberFrame {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
+.phoneNumberFrame {
+  width: 636px;
+  align-items: center;
+  justify-content: flex-start;
+  /* padding: var(--padding-12xl) var(--padding-12xl) var(--padding-13xl); */
+
+  position: relative;
+}
+.phoneNumberFrame input {
+padding-left: 30px;
+  }
+.nameInputField {
+
+  align-items: flex-start;
+  justify-content: flex-end;
+  /* padding: 0 var(--padding-xl); */
+}
+.getIn,
+.touch {
+  margin: 0;
+}
+.eHelloblackperlcom,
+.getInTouchContainer,
+.m91234 {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 800;
+  display: inline-block;
+  z-index: 1;
+}
+.getInTouchContainer {
+  margin: 0;
+  height: 158px;
+  font-size: inherit;
+  line-height: 92px;
+  text-transform: uppercase;
+  font-family: inherit;
+}
+.eHelloblackperlcom,
+.m91234 {
+  height: 17px;
+}
+.m91234 {
+  text-transform: uppercase;
+}
+.eHelloblackperlcom {
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+.contactUsButton {
+  gap: 34px 0;
+  font-size: var(--font-size-5xl);
+}
+.contactUsButton,
+.getInTouchParent,
+.socialMediaLinksFrameInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.getInTouchParent {
+  gap: 60px 0;
+}
+.socialMediaLinksFrameInner {
+  padding: var(--padding-19xl) 0 0;
+  box-sizing: border-box;
+  min-width: 421px;
+  max-width: 100%;
+}
+.book {
+  height: 22px;
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameWithPhoneNumber {
+  width: 124px;
+  height: 76px;
+  display: flex;
+  border: 1px solid white;
+  border-right: 0;
+  align-items: center;
+  justify-content: center;
+  padding-right:10px;
+  box-sizing: border-box;
+}
+.phoneNumberSubframeChild {
+  height: 75px;
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--white);
+  box-sizing: border-box;
+  z-index: 3;
+}
+.phoneNumberSubframeItem {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 1px solid var(--white);
+  box-sizing: border-box;
+  opacity: 0.55;
+  z-index: 2;
+}
+.frameWithPhoneNumber1,
+.phoneNumberSubframe,
+.writeHereInput {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.frameWithPhoneNumber1 {
+  width: 100%;
+  padding-left:30px;
+  border: 1px solid var(--white);
+  background-color: transparent;
+  height: 76px;
+  flex-direction: column;
+  align-items: flex-start;
+  
+  font-family: var(--font-montserrat);
+  font-weight: 500;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-400);
+}
+.phoneNumberSubframe,
+.writeHereInput {
+  width: 636px;
+  flex-direction: row;
+  max-width: 100%;
+}
+.phoneNumberSubframe {
+  align-items: center;
+  /* padding: var(--padding-12xs) var(--padding-xl) 0; */
+  position: relative;
+
+}
+.writeHereInput {
+  border: 0.5px solid #10ff7c52;
+  background-color: transparent;
+  height: 131px;
+  outline: 0;
+  align-items: flex-start;
+  padding: var(--padding-4xl) var(--padding-11xl);
+  font-family: var(--font-montserrat)!important;
+  font-weight: 500;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-400);
+  border-radius: 10px!important;
+  padding-left: 20px!important;
+  width: 100%;
+  
+}
+.byTappingSubmit {
+  margin: 0;
+  white-space: pre-wrap;
+  color:#Fff;
+}
+.privacyPolicy {
+  text-decoration: underline;
+  color:#Fff;
+}
+.privacyPolicy,
+.span {
+  font-family: var(--font-montserrat);
+  color:#Fff;
+}
+.termsConditions {
+  text-decoration: underline;
+  color:#Fff;
+}
+.privacyPolicyTermsCondi {
+  margin: 0;
+  margin-top: 10px!important;
+}
+.byTappingSubmitContainer {
+  position: relative;
+  letter-spacing: 0.3px;
+  /*/*line-height: 53px;*/
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.privacyPolicyTextChild {
+  height: 70px;
+  width: 70px;
+  position: relative;
+  z-index: 1;
+}
+.contactForm,
+.privacyPolicyText {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.privacyPolicyText {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base);
+}
+.contactForm {
+  width: 90%;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 40px 0;
+  min-width: 660px;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-montserrat);
+  padding-top: 30px;
+  padding-left: 0px;
+  
+}
+.ourLogoFrame,
+.socialMediaLinksFrame {
+  align-self: stretch;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.socialMediaLinksFrame {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-5xl);
+  gap: var(--gap-xl);
+}
+.ourLogoFrame {
+  background-color: var(--black);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-58xl) var(--padding-29xl) var(--padding-29xl);
+  gap: 40px 0;
+  text-align: left;
+  font-size: var(--font-size-76xl);
+  color: var(--white);
+  font-family: var(--font-pilat-wide);
+  
+}
+@media screen and (max-width: 1250px) {
+  .contactForm,
+  .socialMediaLinksFrameInner {
+    flex: 1;
+  }
+  .socialMediaLinksFrame {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .contactForm {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .getInTouchContainer {
+    font-size: var(--font-size-28xl);
+    line-height: 55px;
+  }
+  .socialMediaLinksFrameInner {
+    min-width: 100%;
+  }
+  .privacyPolicyText {
+    flex-wrap: wrap;
+  }
+  .contactForm {
+    gap: 20px 0;
+  }
+  .ourLogoFrame {
+    gap: 20px 0;
+    padding: var(--padding-31xl) var(--padding-5xl) var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .getInTouchContainer {
+    font-size: var(--font-size-9xl);
+    /*/*line-height: 53px;*/
+  }
+  .eHelloblackperlcom,
+  .m91234 {
+    font-size: var(--font-size-lgi);
+  }
+  .contactUsButton {
+    gap: 17px 0;
+  }
+  .getInTouchParent {
+    gap: 30px 0;
+  }
+  .phoneNumberSubframeChild {
+    width: 100%;
+    height: 1px;
+  }
+  .phoneNumberSubframe {
+    flex-wrap: wrap;
+    gap: 0 24px;
+  }
+}
+
+.amChild {
+  height: 24.5px;
+  width: 24.5px;
+  position: relative;
+  text-transform: uppercase;
+}
+.am {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mid) var(--padding-sm) var(--padding-mid)
+    var(--padding-mini);
+  background-color: var(--white);
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 19px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  white-space: nowrap;
+  width: 170px;
+    padding-left: 28px;
+}
+.am:hover,
+.column:hover {
+  background-color: var(--color-gainsboro);
+}
+
+.contactUs
+{
+  text-transform: uppercase;
+  font-family: var(--font-pilat-wide)!important;
+}

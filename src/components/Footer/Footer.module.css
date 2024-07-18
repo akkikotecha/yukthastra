@@ -1,0 +1,310 @@
+.image1Icon {
+    height: 193px;
+    width: 250px;
+    position: relative;
+    object-fit: cover;
+  }
+  .fbIcon,
+  .instaIcon,
+  .ytIcon {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    min-height: 50px;
+  }
+  .instaFbYTFrame,
+  .instaFbYTLabel {
+    display: flex;
+    align-items: flex-start;
+  }
+  .instaFbYTLabel {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    margin-top: 20px;
+  }
+  .instaFbYTFrame {
+    width: 210px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-10xl) 0 0;
+    box-sizing: border-box;
+  }
+  .footerSection,
+  .frameWithTitleAndSubtitle {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .frameWithTitleAndSubtitle {
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .footerSection {
+    width: 1308px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-7xs) 0 0;
+    box-sizing: border-box;
+    
+  }
+  @media screen and (max-width: 580px) {
+    .frameWithTitleAndSubtitle {
+      flex-wrap: wrap;
+    }
+    .footerSection {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  .reviewsParent {
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 var(--padding-xl) var(--padding-5xs);
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+    max-width: 100%;
+    font-family: var(--font-pilat-wide);
+    color: white;
+    margin-top: 7%;
+    
+  }
+  .academicLogoFrameChild {
+    align-self: stretch;
+    height: 1px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .ourAcademicPartners,
+  .ourCollaborationPartners {
+    height: 13px;
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 800;
+    display: inline-block;
+  }
+  .ourCollaborationPartners {
+    text-align: right;
+    max-width: 100%;
+  }
+  .logoFrameA {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    max-width: 100%;
+  }
+  .image13Icon,
+  .image14Icon {
+    height: 85px;
+    width: 127px;
+    position: relative;
+    object-fit: cover;
+  }
+  .image14Icon {
+    height: 89px;
+    width: 89px;
+  }
+  .firstLogoFrame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0 20px;
+  }
+  .image15Icon {
+    height: 87px;
+    width: 87px;
+    position: relative;
+    object-fit: cover;
+  }
+  .ourCollaborationLogosFrame {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var(--padding-lg) 0 0;
+    gap: var(--gap-xl);
+  }
+  .ourAcademicPartnersFrame {
+    align-self: stretch;
+    flex-direction: column;
+    gap: 22px 0;
+  }
+  .academicLogoFrame,
+  .academicPartnersCollabFrame,
+  .ourAcademicPartnersFrame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .academicLogoFrame {
+    flex: 1;
+    flex-direction: column;
+    gap: 56px 0;
+  }
+  .academicPartnersCollabFrame {
+    width: 1304px;
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-9xs);
+    box-sizing: border-box;
+    font-size: var(--font-size-lg);
+  }
+  .footerFrameChild {
+    height: 34px;
+    width: 1440px;
+    position: relative;
+    background-color: var(--white);
+    display: none;
+    max-width: 100%;
+  }
+  .copyrightBlackperlLtd,
+  .privacyPolicy {
+    height: 11px;
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 300;
+    display: inline-block;
+    z-index: 1;
+  }
+  .privacyPolicy {
+    white-space: pre-wrap;
+    text-align: right;
+    max-width: 100%;
+   padding-bottom: 20px;
+  }
+  .footerFrame,
+  .reviewsAcademy {
+    align-self: stretch;
+    display: flex;
+    max-width: 100%;
+    text-align: left;
+    font-family: var(--font-pilat-wide);
+  }
+  .footerFrame {
+    background-color: var(--white);
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: var(--padding-2xs) var(--padding-53xl) var(--padding-xs);
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+    font-size: var(--font-size-base);
+    color: var(--black);
+  }
+  .reviewsAcademy {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 64px 0;
+    font-size: var(--font-size-5xl);
+    color: var(--white);
+  }
+  @media screen and (max-width: 1398px) {
+.frameWithTitleAndSubtitle
+{
+  padding-left: 60px;
+}
+.reviewsParent
+{
+  margin-right: 40px;
+}
+  }
+  @media screen and (max-width: 1100px) {
+    .footerFrame,
+    .reviewsParent {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1020px) {
+.reviewsParent
+{
+  width: 21%;
+}
+.aboutUs, .academy, .contact, .reviews, .services, .training
+{
+  font-size: 19px!important;
+}
+.academicPartnersCollabFrame
+  {
+    font-size: 16px!important;
+
+  }
+  .ourCollaborationLogosFrame
+  {
+    padding:20px 0 0px 0px
+  }
+  }
+  @media screen and (max-width: 750px) {
+    .logoFrameA {
+      flex-wrap: wrap;
+    }
+    .academicLogoFrame {
+      gap: 28px 0;
+    }
+    .footerFrame {
+      padding-left: var(--padding-17xl);
+      padding-right: var(--padding-17xl);
+      box-sizing: border-box;
+    }
+    .reviewsAcademy {
+      gap: 32px 0;
+    }
+  }
+  .aboutUs,
+    .academy,
+    .contact,
+    .reviews,
+    .services,
+    .training {
+      font-size: var(--font-size-6xl);
+      font-weight: 700;
+    }
+  @media screen and (max-width: 580px) {
+    .aboutUs
+    {
+      margin-top: -13px;
+    }
+   
+    .aboutUs,
+    .academy,
+    .contact,
+    .reviews,
+    .services,
+    .training {
+      font-size: var(--font-size-lgi);
+      font-weight: 700;
+    }
+    .ourCollaborationLogosFrame {
+      flex-wrap: wrap;
+    }
+    .reviewsAcademy {
+      gap: 16px 0;
+    }
+    .frameWithTitleAndSubtitle
+    {
+      padding-left: 5px;
+    }
+    .reviewsParent
+    {
+      width: fit-content;
+      margin-right: 0px;
+    }
+  }
+  
+  .reviewsParent h3{
+    text-transform: uppercase;
+  }

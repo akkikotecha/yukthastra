@@ -1,0 +1,252 @@
+.reviews {
+    white-space: pre-wrap;
+  }
+  .aboutUs,
+  .academy,
+  .contact,
+  .reviews,
+  .services,
+  .training {
+    margin: 0;
+    /* height: 17px; */
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: inherit;
+    display: inline-block;
+  }
+  .reviewsParent {
+    width: 1256px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 var(--padding-xl) var(--padding-5xs);
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+    max-width: 100%;
+  }
+  .academicLogoFrameChild {
+    align-self: stretch;
+    height: 1px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .ourAcademicPartners,
+  .ourCollaborationPartners {
+    height: 13px;
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 800;
+    display: inline-block;
+  }
+  .ourCollaborationPartners {
+    text-align: right;
+    max-width: 100%;
+  }
+  .logoFrameA {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    max-width: 100%;
+  }
+  .image13Icon,
+  .image14Icon {
+    height: 85px;
+    width: 127px;
+    position: relative;
+    object-fit: cover;
+  }
+  .image14Icon {
+    height: 89px;
+    width: 89px;
+  }
+  .firstLogoFrame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0 20px;
+  }
+  .image15Icon {
+    height: 87px;
+    width: 87px;
+    position: relative;
+    object-fit: cover;
+  }
+  .ourCollaborationLogosFrame {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var(--padding-lg) 0 0;
+    gap: var(--gap-xl);
+  }
+  .ourAcademicPartnersFrame {
+    align-self: stretch;
+    flex-direction: column;
+    gap: 22px 0;
+  }
+  .academicLogoFrame,
+  .academicPartnersCollabFrame,
+  .ourAcademicPartnersFrame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .academicLogoFrame {
+    flex: 1;
+    flex-direction: column;
+    gap: 56px 0;
+  }
+  .academicPartnersCollabFrame {
+    width: 1304px;
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-9xs);
+    box-sizing: border-box;
+    font-size: var(--font-size-lg);
+  }
+  .footerFrameChild {
+    height: 34px;
+    width: 1440px;
+    position: relative;
+    background-color: var(--white);
+    display: none;
+    max-width: 100%;
+  }
+  .copyrightBlackperlLtd,
+  .privacyPolicy {
+    height: 11px;
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 300;
+    display: inline-block;
+    z-index: 1;
+  }
+  .privacyPolicy {
+    white-space: pre-wrap;
+    text-align: right;
+    max-width: 100%;
+   padding-bottom: 20px;
+  }
+  .privacyPolicy span a {
+    color: #000!important;
+  }
+  .footerFrame,
+  .reviewsAcademy {
+    align-self: stretch;
+    display: flex;
+    max-width: 100%;
+    text-align: left;
+    font-family: var(--font-pilat-wide);
+  }
+  .footerFrame {
+    background-color: var(--white);
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: var(--padding-2xs) var(--padding-53xl) var(--padding-xs);
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+    font-size: var(--font-size-base);
+    color: var(--black);
+  }
+  .reviewsAcademy {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 64px 0;
+    font-size: var(--font-size-5xl);
+    color: var(--white);
+  }
+  @media screen and (max-width: 1398px) {
+.academicLogoFrame
+{
+  padding-left: 55px;
+    padding-right: 80px;
+}
+.academicPartnersCollabFrame
+{
+  font-size: 14px;
+}
+  }
+  @media screen and (max-width: 1100px) {
+    .footerFrame,
+    .reviewsParent {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1020px) {
+    .footerFrame
+    {
+      font-size: 14px!important;
+      padding: 11px 30px var(--padding-xs)!important;
+    }
+   .academicLogoFrame
+   {
+    padding-left: 55px;
+    padding-right: 55px;
+
+   } 
+  }
+  @media screen and (max-width: 750px) {
+    .logoFrameA {
+      flex-wrap: wrap;
+    }
+    .academicLogoFrame {
+      gap: 28px 0;
+    }
+    .footerFrame {
+      padding-left: var(--padding-17xl);
+      padding-right: var(--padding-17xl);
+      box-sizing: border-box;
+    }
+    .reviewsAcademy {
+      gap: 32px 0;
+    }
+  }
+  @media screen and (max-width: 580px) {
+    .aboutUs,
+    .academy,
+    .contact,
+    .reviews,
+    .services,
+    .training {
+      font-size: var(--font-size-lgi);
+    }
+    .ourCollaborationLogosFrame {
+      flex-wrap: wrap;
+    }
+    .reviewsAcademy {
+      gap: 16px 0;
+    }
+    .image15Icon
+    {
+      display: inline!important;
+    }
+    .academicLogoFrame
+   {
+    padding-left: 17px;
+    padding-right: 17px;
+
+   } 
+  .footerFrame
+   {
+     padding: 11px 9px var(--padding-xs) !important;
+     justify-content: center;
+   }
+.ourCollaborationPartners
+{
+  text-align: center;
+}
+  }
+  
