@@ -1,6 +1,5 @@
 
 import {
-  Navbar,
   ReviewFooter,
   Footer
 } from "../components";
@@ -17,7 +16,6 @@ function TermAndCondition() {
   
   return (
     <>
-      <Navbar />
       <section className={styles.dataMerger}>
         <h1 className={styles.weStrengthenOrganisationContainer}>
           <p className={styles.weStrengthen}>TERMS OF USE</p>

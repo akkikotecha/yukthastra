@@ -1,28 +1,19 @@
 import {
   Footer,
   Header,
-  HowAreWeDiffenrent,
   MainSection,
-  Navbar,
-  PortfolioServices,
-  Relation,
-  Services,
 } from "../components";
 import styles from "./css/Home.module.css";
 export default function App() {
   return (
     <>
-      <Navbar />
       <Header />
-      <Services />
       <section className={styles.frameText}>
         <div className={styles.frameImage}>
           <h1 className={styles.howAre}>{`HOW ARE `}</h1>
-          <HowAreWeDiffenrent />
           <MainSection />
         </div>
       </section>
-      <PortfolioServices />
       <section className={styles.contentBoxes}>
         <div className={styles.frameParent}>
           <b className={styles.learner}>Learner</b>
@@ -32,7 +23,7 @@ export default function App() {
           </b>
         </div>
       </section>
-      <Relation />
+      
       {/* Our Relations */}
       <section className={styles.servicesFrame}>
         <b className={styles.ourRelationsWorkContainer}>

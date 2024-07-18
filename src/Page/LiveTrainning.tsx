@@ -1,8 +1,5 @@
 
 import {
-    Navbar,
-    EnrolNow,
-    PracticalTraining,
     ContactForm,
     Footer,
     ReviewFooter
@@ -19,7 +16,6 @@ import { useEffect } from "react";
     }, []);
     return (
       <>
-        <Navbar />
         <section className={styles.dataMerger}>
           <h1 className={styles.weStrengthenOrganisationContainer}>
             <p className={styles.weStrengthen}>Live Training</p>
@@ -27,8 +23,6 @@ import { useEffect } from "react";
           </h1>
         </section>
 
-        <EnrolNow />
-        <PracticalTraining/>
         <section className={styles.reviewsAcademyGroup}>
         <ContactForm />
         <Footer />

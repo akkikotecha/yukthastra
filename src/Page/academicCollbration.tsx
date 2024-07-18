@@ -1,8 +1,8 @@
-import { Navbar, ContactForm, Footer, ReviewFooter,  CompanyLogoSlider} from "../components";
+import {  ContactForm, Footer, ReviewFooter} from "../components";
 import styles from "./css/academicCollbration.module.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "./css/academicCollbration.module.css";
-import Carousel from "../components/ColbratorServices/Service";
+
 import { Tab, Tabs } from "react-bootstrap";
 import { useEffect } from "react";
 
@@ -17,7 +17,7 @@ function AcademicCollbration() {
   }, []);
   return (
     <>
-      <Navbar />
+      
       <section className={styles.desktop_show}>
       <section className={`${styles.dataMerger}`}>
         <h1 className={styles.weStrengthenOrganisationContainer}>
@@ -577,7 +577,7 @@ function AcademicCollbration() {
         </div>
       </div>
       <div className="container mt-0 pt-5">
-        <Carousel />
+        
 
         <div className={`row ${styles.postionSetRelative}`}>
           <div className="col-lg-12 col-md-6 p-4 mt-5 pt-5">
@@ -1312,9 +1312,7 @@ function AcademicCollbration() {
           </div>
         </div>
 
-          <CompanyLogoSlider reverseDirection={false} extraPadding={false}  />
-      <CompanyLogoSlider reverseDirection={true} extraPadding={true} />
-
+        
       </div>
       <section className={styles.reviewsAcademyGroup}>
         <ContactForm />
@@ -1885,8 +1883,7 @@ function AcademicCollbration() {
         </div>
       </div>
       <div className={`container ${styles.marginServiceSet} mt-0 pt-0 `} >
-        <Carousel />
-
+        
         <div className={`row ${styles.postionSetRelative}`}>
           <div className="col-lg-12 col-md-6 p-4 pt-5">
             <h1 className={styles.title_text}>
@@ -2619,9 +2616,6 @@ function AcademicCollbration() {
             </h1>
           </div>
         </div>
-
-          <CompanyLogoSlider reverseDirection={false} extraPadding={false}  />
-      <CompanyLogoSlider reverseDirection={true} extraPadding={true} />
 
       </div>
       <section className={styles.reviewsAcademyGroup}>

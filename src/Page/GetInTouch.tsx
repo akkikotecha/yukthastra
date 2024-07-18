@@ -1,6 +1,5 @@
 
 import {
-    Navbar,
     GetInTouchForm,
     Footer,
     ReviewFooter
@@ -17,7 +16,6 @@ import { useEffect } from "react";
     }, []);
     return (
       <>
-        <Navbar />
         <section className={styles.dataMerger}>
           <h1 className={styles.weStrengthenOrganisationContainer}>
             <p className={styles.weStrengthen}>Have any</p>

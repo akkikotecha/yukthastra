@@ -1,10 +1,8 @@
 
 import {
-    Navbar,
     ContactForm,
     Footer,
     ReviewFooter,
-    TrainingTab
   } from "../components";
   import styles from "./css/Training.module.css";
   import 'bootstrap/dist/css/bootstrap.css';
@@ -30,7 +28,6 @@ import { Modal } from "react-bootstrap";
   
     return (
       <>
-        <Navbar />
         <section className={`${styles.dataMerger} ${styles.desktopShow}`}>
         <div className={styles.row}>
         <div className={`${styles.flex_row} ${styles['col-2']}`}>
@@ -149,8 +146,7 @@ import { Modal } from "react-bootstrap";
           </div>
         </section>
 
-        <TrainingTab />
-
+  
         <section className={styles.reviewsAcademyGroup}>
         <ContactForm />
         <Footer />

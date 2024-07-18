@@ -1,10 +1,6 @@
 
 import {
-  Navbar,
-  Details,
   AboutServices,
-  WhyChooseUs,
-  JoinOurWorld,
   ContactForm,
   Footer,
   ReviewFooter
@@ -23,7 +19,7 @@ function Trainning() {
   
   return (
     <>
-      <Navbar />
+
       <section className={styles.dataMerger}>
         <h1 className={styles.weStrengthenOrganisationContainer}>
           <p className={styles.weStrengthen}>We strengthen</p>
@@ -40,10 +36,7 @@ function Trainning() {
           </button></Link>
         </div>
       </section>
-      <Details />
       <AboutServices />
-      <WhyChooseUs/>
-      <JoinOurWorld/>
       <div className="container px-5">
         <div className="row">
           <h3 className={styles.details_title}>

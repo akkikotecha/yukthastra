@@ -1,7 +1,5 @@
 
 import {
-    Navbar,
-    ReviewCertificate,
     ContactForm,
     Footer,
     ReviewFooter
@@ -18,7 +16,6 @@ import { useEffect } from "react";
     }, []);
     return (
       <>
-        <Navbar />
         <section className={styles.dataMerger}>
           <h1 className={styles.weStrengthenOrganisationContainer}>
             <p className={styles.weStrengthen}>what our</p>
@@ -26,7 +23,6 @@ import { useEffect } from "react";
           </h1>
          
         </section>
-        <ReviewCertificate />
         <section className={styles.reviewsAcademyGroup}>
           <ContactForm />
           <Footer />

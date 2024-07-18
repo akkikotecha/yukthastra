@@ -1,10 +1,8 @@
 
 import {
-    Navbar,
     ContactForm,
     Footer,
     ReviewFooter,
-    TiteTrainingTab
   } from "../components";
   import styles from "./css/ttia.module.css";
   import 'bootstrap/dist/css/bootstrap.css';
@@ -18,7 +16,6 @@ import { useEffect } from "react";
     }, []);
     return (
       <>
-        <Navbar />
         <section className={`${styles.dataMerger}  ${styles.desktopShow}`}>
         <div className={styles.row}>
         <div className={`${styles.flex_row} ${styles['col-2']}`}>
@@ -110,8 +107,7 @@ import { useEffect } from "react";
           </div>
        
         </section>
-        <TiteTrainingTab />
-
+  
         <section className={styles.reviewsAcademyGroup}>
         <ContactForm />
         <Footer />

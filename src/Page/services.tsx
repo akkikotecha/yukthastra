@@ -1,4 +1,4 @@
-import { Navbar, ContactForm, Footer, ReviewFooter } from "../components";
+import { ContactForm, Footer, ReviewFooter } from "../components";
 import styles from "./css/Services.module.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "./css/Services.module.css";
@@ -24,7 +24,6 @@ function Services() {
   };
   return (
     <>
-      <Navbar />
       <section className={`${styles.dataMerger}`}>
         <h1 className={styles.weStrengthenOrganisationContainer}>
           <p className={styles.weStrengthen}>SERVICES</p>

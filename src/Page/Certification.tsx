@@ -1,17 +1,8 @@
 import {
-  Navbar,
   ContactForm,
   Footer,
-  SecurityAnalyst,
-  ThreatHunting,
-  CloudSecurity,
   ReviewFooter,
-  DigitalForensics,
-  MalwareAnalysis,
-  DefenderLabs,
-  DefendersCheatSheets,
-  CourseBundles
-
+ 
 } from "../components";
 import styles from "./css/Certification.module.css";
 import "bootstrap/dist/css/bootstrap.css";
@@ -25,7 +16,6 @@ function LiveTrainning() {
   }, []);
   return (
     <>
-      <Navbar />
       <section className={styles.dataMerger}>
         <h1 className={styles.weStrengthenOrganisationContainer}>
           <p className={styles.weStrengthen}>CERTIFICATIONS</p>
@@ -226,16 +216,6 @@ function LiveTrainning() {
         </div>
       </div>
 
-      <SecurityAnalyst />
-      <ThreatHunting />
-      <CloudSecurity />
-
-      
-      <DigitalForensics />
-      <MalwareAnalysis />
-      <DefenderLabs />
-      <DefendersCheatSheets />
-      <CourseBundles />
       <section className={styles.reviewsAcademyGroup}>
         <ContactForm />
         <Footer />

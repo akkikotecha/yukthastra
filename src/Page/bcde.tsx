@@ -1,9 +1,7 @@
 import {
-  Navbar,
   ContactForm,
   Footer,
   ReviewFooter,
-  BcdeTrainingTab,
 } from "../components";
 import styles from "./css/bcde.module.css";
 import "bootstrap/dist/css/bootstrap.css";
@@ -17,7 +15,6 @@ function Bcde() {
   }, []);
   return (
     <>
-      <Navbar />
       <section className={`${styles.dataMerger} ${styles.desktopShow}`}>
         <div className={styles.row}>
           <div className={`${styles.flex_row} ${styles["col-2"]}`}>
@@ -125,8 +122,6 @@ function Bcde() {
         
         </section>
 
-
-      <BcdeTrainingTab />
 
       <section className={styles.reviewsAcademyGroup}>
         <ContactForm />
